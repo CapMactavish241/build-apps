@@ -8,7 +8,7 @@ rv-brand = "SoapTube"
 [YouTube]
 build-mode = "apk"
 excluded-patches = ""
-included-patches = "'Custom Branding'"
+included-patches = "'Custom branding'"
 version = "auto"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
