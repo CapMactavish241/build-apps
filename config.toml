@@ -38,6 +38,7 @@ version = "auto"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
 # uptodown-dlurl = "https://tiktok.en.uptodown.com/android"
 # arch = "armeabi-v7a, arm64-v8a"
+included-patches = "'SIM spoof'"
 
 [Reddit]
 version = "auto"
@@ -47,7 +48,7 @@ uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 [Messenger]
 enabled = true
 # apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
-uptodown-dlurl = "https://messenger.en.uptodown.com/android"
+uptodown-dlurl = "https://facebook-messenger.en.uptodown.com/android"
 # arch = "armeabi-v7a"
 
 [Facebook]
@@ -146,24 +147,24 @@ enabled = true
 version = "auto"
 uptodown-dlurl = "https://infinity-for-reddit.en.uptodown.com/android"
 
-[Music-ReX]
+[Music-anddea]
 enabled = true
 app-name = "Music"
 version = "latest"
-patches-source = "YT-Advanced/ReX-patches"
-integrations-source = "YT-Advanced/ReX-integrations"
-rv-brand = "ReX"
+patches-source = "anddea/revanced-patches"
+integrations-source = "anddea/revanced-integrations"
+rv-brand = "anddea"
 build-mode = "apk"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 arch = "both"
 
-[YouTube-ReX]
+[YouTube-anddea]
 enabled = true
 app-name = "YouTube"
-version = "latest"
-patches-source = "YT-Advanced/ReX-patches"
-integrations-source = "YT-Advanced/ReX-integrations"
-rv-brand = "ReX"
+version = "auto"
+patches-source = "anddea/revanced-patches"
+integrations-source = "anddea/revanced-integrations"
+rv-brand = "anddea"
 build-mode = "apk"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
